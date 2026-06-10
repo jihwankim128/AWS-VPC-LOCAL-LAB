@@ -6,11 +6,13 @@
 
 ## 학습 기록
 
-<!--
-예시 템플릿
-
-### STEP1. ~~~
-
-STEP1에서 노출되는 키워드, 실습을 경험하고 정리
-
--->
+| Step | 주제 | 학습 기록 | 상태 |
+| --- | --- | --- | --- |
+| Step 0 | VM 준비 | [docs/step0.md](./docs/step0.md) | 진행 중 |
+| Step 1 | VPC VM에 AppServer와 Database 실행 | [docs/step1.md](./docs/step1.md) | 예정 |
+| Step 2 | VPC / Subnet / ENI 재현 | [docs/step2.md](./docs/step2.md) | 예정 |
+| Step 3 | VPC Router / Local Route 재현 | [docs/step3.md](./docs/step3.md) | 예정 |
+| Step 4 | Security Group 재현 | [docs/step4.md](./docs/step4.md) | 예정 |
+| Step 5 | Internet Gateway 재현 | [docs/step5.md](./docs/step5.md) | 예정 |
+| Step 6 | DNS VM으로 Route53 재현 | [docs/step6.md](./docs/step6.md) | 예정 |
+| Step 7 | 최종 요청 흐름 검증 | [docs/step7.md](./docs/step7.md) | 예정 |
