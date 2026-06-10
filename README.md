@@ -11,8 +11,8 @@
 | Step 0 | VM 준비 | [step/step0](./step/step0) | [README.md](./step/step0/README.md) | 완료 |
 | Step 1 | VPC VM에 AppServer와 Database 실행 | [step/step1](./step/step1) | [README.md](./step/step1/README.md) | 완료 |
 | Step 2 | VPC / Subnet / ENI 재현 | [step/step2](./step/step2) | [README.md](./step/step2/README.md) | 완료 |
-| Step 3 | VPC Router / Local Route 재현 | [step/step3](./step/step3) | [README.md](./step/step3/README.md) | 진행 중 |
-| Step 4 | Security Group 재현 | [step/step4](./step/step4) | [README.md](./step/step4/README.md) | 예정 |
+| Step 3 | VPC Router / Local Route 재현 | [step/step3](./step/step3) | [README.md](./step/step3/README.md) | 완료 |
+| Step 4 | Security Group 재현 | [step/step4](./step/step4) | [README.md](./step/step4/README.md) | 진행 중 |
 | Step 5 | Internet Gateway 재현 | [step/step5](./step/step5) | [README.md](./step/step5/README.md) | 예정 |
 | Step 6 | DNS VM으로 Route53 재현 | [step/step6](./step/step6) | [README.md](./step/step6/README.md) | 예정 |
 | Step 7 | 최종 요청 흐름 검증 | [step/step7](./step/step7) | [README.md](./step/step7/README.md) | 예정 |
