@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  route53-dns:
+    image: coredns/coredns:1.11.3
+    container_name: route53-dns
+    restart: unless-stopped
+    command: -conf /etc/coredns/Corefile
+    ports:
+      - "192.168.56.6:53:53/udp"
+      - "192.168.56.6:53:53/tcp"
+    volumes:
+      - ./Corefile:/etc/coredns/Corefile:ro
