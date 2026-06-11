@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  app-server:
+    build:
+      context: app-server
+    container_name: app-server
+    network_mode: "none"
+    environment:
+      DB_HOST: 10.10.2.10
+      DB_PORT: "3306"
+      DB_NAME: appdb
+      DB_USER: root
+      DB_PASSWORD: localpass
+
+  database:
+    image: mysql:8.0
+    container_name: database
+    network_mode: "none"
+    environment:
+      MYSQL_ROOT_PASSWORD: localpass
+      MYSQL_DATABASE: appdb
+    volumes:
+      - ./database/init:/docker-entrypoint-initdb.d:ro

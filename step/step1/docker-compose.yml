@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  app-server:
+    image: nginx:stable
+    container_name: app-server
+    network_mode: "none"
+
+  database:
+    image: mysql:8.0
+    container_name: database
+    network_mode: "none"
+    environment:
+      MYSQL_ROOT_PASSWORD: localpass
+      MYSQL_DATABASE: appdb

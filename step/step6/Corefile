@@ -1,0 +1,11 @@
+.:53 {
+    log
+    errors
+
+    hosts {
+        192.168.56.2 api.local.test
+        fallthrough
+    }
+
+    forward . 1.1.1.1 8.8.8.8
+}
