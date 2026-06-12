@@ -16,3 +16,23 @@
 | Step 5 | Internet Gateway 재현            | [step/step5](./step/step5) | [README.md](./step/step5/README.md) | 완료 |
 | Step 6 | DNS VM으로 Route53 재현            | [step/step6](./step/step6) | [README.md](./step/step6/README.md) | 완료 |
 | Step 7 | 최종 Simple AWS Infra 재현         | [step/step7](./step/step7) | [README.md](./step/step7/README.md) | 진행 중 |
+
+## 최종 결과
+
+### 접속 화면 
+
+![img.png](result.png)
+
+### AWS Architecture
+
+![img.png](aws-architecture.png)
+
+### Local AWS Architecture
+
+![img.png](local-aws-architecture.png)
+
+## 다음으로
+
+* 웹 서버 배포해보기
+* CI/CD 추가해보기
+* 등등 ...
