@@ -13,7 +13,6 @@
 ## 기준 문서
 
 * 실습 단계는 [CURRICULUM.md](../../CURRICULUM.md)를 기준으로 진행한다.
-* Codex 작업 시 IP와 실습 기준값은 [CODEX_GUIDE.md](../../CODEX_GUIDE.md)를 먼저 확인한다.
 * UTM VM 생성 및 Ubuntu Server 설치 과정은 [UTM_SETTING.md](../../UTM_SETTING.md)를 참고한다.
 
 ## 확인할 것
